@@ -1,0 +1,19 @@
+
+===========================================================================
+Violator List
+============================================================================
+[setup reg-out] _6219_/Q -> monitor_out[31] : -0.899539
+[setup reg-out] _6219_/Q -> monitor_out[30] : -0.834674
+[setup reg-out] _6219_/Q -> monitor_out[29] : -0.769699
+[setup reg-out] _6219_/Q -> monitor_out[28] : -0.706463
+[setup reg-out] _6219_/Q -> monitor_out[27] : -0.342713
+[setup reg-out] _6219_/Q -> monitor_out[26] : -0.263753
+[setup reg-out] _6219_/Q -> monitor_out[23] : -0.133353
+[setup reg-out] _6219_/Q -> monitor_out[25] : -0.095286
+[setup reg-out] _6219_/Q -> monitor_out[24] : -0.043030
+Writing metric timing__hold_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__hold_r2r__ws__corner:nom_tt_025C_1v80: 0.336676
+Writing metric timing__hold_r2r_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__setup_vio__count__corner:nom_tt_025C_1v80: 9
+Writing metric timing__setup_r2r__ws__corner:nom_tt_025C_1v80: 3.666453
+Writing metric timing__setup_r2r_vio__count__corner:nom_tt_025C_1v80: 0

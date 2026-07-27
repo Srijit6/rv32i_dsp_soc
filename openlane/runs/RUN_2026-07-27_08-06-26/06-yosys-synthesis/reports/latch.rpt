@@ -1,0 +1,6 @@
+
+23. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\register_file.$mem2reg_rd$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:24$29_DATA' from process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$48'.
+No latch inferred for signal `\register_file.$mem2reg_rd$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:23$28_DATA' from process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$45'.
+No latch inferred for signal `\execute.\branch_en' from process `\execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$17'.
+No latch inferred for signal `\execute.\alu_result' from process `\execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$17'.

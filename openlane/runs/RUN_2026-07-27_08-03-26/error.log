@@ -1,0 +1,14 @@
+Subprocess had a non-zero exit.
+Last 10 line(s):
+Top module:  \soc_top
+
+12.2. Executing AST frontend in derive mode using pre-parsed AST for module `\dsp_coprocessor'.
+Generating RTLIL representation for module `\dsp_coprocessor'.
+
+12.3. Executing AST frontend in derive mode using pre-parsed AST for module `\rv32i_top'.
+Generating RTLIL representation for module `\rv32i_top'.
+
+12.4. Executing AST frontend in derive mode using pre-parsed AST for module `\instruction_memory'.
+/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/instruction_memory.v:15: ERROR: Can not open file `../dv/assembly/mac_test.hex` for \$readmemh.
+
+Full log file: 'rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-03-26/05-yosys-jsonheader/yosys-jsonheader.log'

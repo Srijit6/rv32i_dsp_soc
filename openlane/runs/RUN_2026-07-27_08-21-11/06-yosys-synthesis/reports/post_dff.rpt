@@ -1,0 +1,40 @@
+141. Printing statistics.
+
+=== soc_top ===
+
+   Number of wires:               3841
+   Number of wire bits:           4089
+   Number of public wires:          11
+   Number of public wire bits:     259
+   Number of ports:                  3
+   Number of port bits:             34
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4082
+     $_ANDNOT_                    1291
+     $_AND_                         74
+     $_MUX_                        163
+     $_NAND_                       142
+     $_NOR_                        278
+     $_NOT_                        161
+     $_ORNOT_                      126
+     $_OR_                         494
+     $_XNOR_                       373
+     $_XOR_                        854
+     sky130_fd_sc_hd__dfrtp_2      126
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+
+   Chip area for module '\soc_top': 3310.675200
+     of which used for sequential elements: 3310.675200 (100.00%)
+

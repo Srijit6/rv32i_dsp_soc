@@ -1,0 +1,37 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-07-51/tmp/e51b5438c94d41edb5753a7cfa499d0b.lib ",
+   "modules": {
+      "\\soc_top": {
+         "num_wires":         2,
+         "num_wire_bits":     2,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 2,
+         "num_ports":         2,
+         "num_port_bits":     2,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         0,
+         "num_cells_by_type": {
+
+         }
+      }
+   },
+      "design": {
+         "num_wires":         2,
+         "num_wire_bits":     2,
+         "num_pub_wires":     2,
+         "num_pub_wire_bits": 2,
+         "num_ports":         2,
+         "num_port_bits":     2,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         0,
+         "num_cells_by_type": {
+
+         }
+      }
+}
+

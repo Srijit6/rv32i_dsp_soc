@@ -1,0 +1,17 @@
+{
+	"design__die__bbox": "0.0 0.0 11.04 21.76",
+	"design__core__bbox": "0.0 0.0 11.04 21.76",
+	"design__io": 2,
+	"design__die__area": 240.23,
+	"design__core__area": 240.23,
+	"design__instance__count": 0,
+	"design__instance__area": 0,
+	"design__instance__count__stdcell": 0,
+	"design__instance__area__stdcell": 0,
+	"design__instance__count__macros": 0,
+	"design__instance__area__macros": 0,
+	"design__instance__utilization": 0,
+	"design__instance__utilization__stdcell": 0,
+	"flow__warnings__count": 2,
+	"flow__errors__count": 0
+}

@@ -1,0 +1,203 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/srijitsengupta/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/srijitsengupta/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/srijitsengupta/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-21-11/34-openroad-cts/soc_top.odb'…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 3.0
+[INFO] Setting input delay to: 3.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting RC values…
+[INFO RSZ-0094] Found 33 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 33 out of 33 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |    WNS   |   TNS      |  Viol  | Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |            | Endpts | Endpt
+---------------------------------------------------------------------------------------------------
+        0 |       0 |       0 |        0 |      0 |     0 |   -6.460 |      -95.4 |     33 | monitor_out[29]
+       10 |       0 |       9 |        0 |      0 |     0 |   -6.024 |      -85.9 |     33 | monitor_out[31]
+       20 |       0 |      17 |        0 |      0 |     2 |   -5.864 |      -81.9 |     33 | monitor_out[31]
+       30 |       0 |      21 |        6 |      0 |     5 |   -5.842 |      -81.3 |     33 | monitor_out[31]
+       40 |       0 |      30 |        6 |      0 |     6 |   -5.775 |      -80.4 |     33 | monitor_out[31]
+       50 |       0 |      36 |        6 |      0 |    10 |   -5.839 |      -80.0 |     33 | monitor_out[31]
+       60 |       0 |      40 |       10 |      0 |    14 |   -5.903 |      -81.6 |     33 | monitor_out[31]
+       70 |       0 |      45 |       14 |      0 |    17 |   -5.705 |      -78.0 |     33 | monitor_out[31]
+       80 |       0 |      54 |       14 |      0 |    18 |   -5.627 |      -77.0 |     33 | monitor_out[31]
+       90 |       0 |      60 |       20 |      0 |    19 |   -5.472 |      -74.0 |     33 | monitor_out[31]
+      100 |       0 |      65 |       22 |      0 |    23 |   -5.530 |      -75.5 |     33 | monitor_out[31]
+      110 |       0 |      74 |       22 |      0 |    24 |   -5.480 |      -73.3 |     33 | monitor_out[31]
+      120 |       0 |      80 |       24 |      0 |    27 |   -5.465 |      -72.6 |     33 | monitor_out[31]
+      130 |       0 |      88 |       24 |      0 |    29 |   -5.258 |      -69.9 |     33 | monitor_out[31]
+      140 |       0 |      94 |       26 |      0 |    32 |   -5.188 |      -68.9 |     33 | monitor_out[31]
+      150 |       0 |     100 |       28 |      0 |    35 |   -5.174 |      -67.9 |     33 | monitor_out[31]
+      160 |       0 |     106 |       32 |      0 |    38 |   -5.176 |      -68.4 |     33 | monitor_out[31]
+      170 |       0 |     114 |       32 |      0 |    40 |   -5.045 |      -65.9 |     33 | monitor_out[31]
+      180 |       0 |     124 |       32 |      0 |    40 |   -5.028 |      -65.3 |     33 | monitor_out[31]
+      190 |       0 |     130 |       32 |      0 |    44 |   -5.030 |      -65.8 |     33 | monitor_out[31]
+      200 |       0 |     136 |       34 |      0 |    47 |   -5.023 |      -65.7 |     33 | monitor_out[31]
+      210 |       0 |     140 |       38 |      0 |    51 |   -4.987 |      -64.8 |     33 | monitor_out[31]
+      220 |       0 |     145 |       40 |      0 |    55 |   -5.025 |      -64.4 |     33 | monitor_out[31]
+      230 |       0 |     152 |       42 |      0 |    57 |   -4.991 |      -63.6 |     33 | monitor_out[31]
+      240 |       0 |     160 |       44 |      0 |    58 |   -4.996 |      -63.8 |     33 | monitor_out[31]
+      250 |       0 |     165 |       46 |      0 |    62 |   -4.989 |      -63.5 |     33 | monitor_out[31]
+      260 |       0 |     171 |       48 |      0 |    65 |   -4.920 |      -61.9 |     33 | monitor_out[31]
+      270 |       0 |     177 |       50 |      0 |    68 |   -4.887 |      -61.2 |     33 | monitor_out[31]
+      280 |       0 |     182 |       52 |      0 |    72 |   -4.915 |      -61.8 |     33 | monitor_out[31]
+      290 |       0 |     188 |       56 |      0 |    75 |   -4.892 |      -61.3 |     33 | monitor_out[31]
+      300 |       0 |     195 |       60 |      0 |    76 |   -4.837 |      -60.2 |     33 | monitor_out[31]
+      310 |       0 |     200 |       65 |      0 |    79 |   -4.841 |      -59.9 |     33 | monitor_out[31]
+      320 |       0 |     206 |       65 |      0 |    83 |   -4.845 |      -59.8 |     33 | monitor_out[31]
+      330 |       0 |     213 |       69 |      0 |    84 |   -4.857 |      -59.9 |     33 | monitor_out[31]
+      340 |       0 |     221 |       69 |      0 |    86 |   -4.767 |      -58.2 |     33 | monitor_out[31]
+      350 |       0 |     227 |       71 |      0 |    89 |   -4.799 |      -58.5 |     33 | monitor_out[31]
+      360 |       0 |     233 |       73 |      0 |    92 |   -4.739 |      -57.7 |     33 | monitor_out[31]
+      370 |       0 |     242 |       73 |      0 |    93 |   -4.694 |      -56.4 |     33 | monitor_out[31]
+      380 |       0 |     251 |       73 |      0 |    94 |   -4.664 |      -55.9 |     33 | monitor_out[31]
+      390 |       0 |     258 |       73 |      2 |    95 |   -4.649 |      -55.8 |     33 | monitor_out[31]
+      400 |       0 |     262 |       80 |      3 |    97 |   -4.641 |      -55.4 |     33 | monitor_out[31]
+      410 |       0 |     267 |       82 |      3 |   101 |   -4.672 |      -55.4 |     33 | monitor_out[31]
+      420 |       0 |     275 |       84 |      3 |   102 |   -4.754 |      -57.7 |     33 | monitor_out[31]
+      430 |       0 |     280 |       90 |      3 |   104 |   -4.718 |      -57.4 |     33 | monitor_out[31]
+      440 |       0 |     288 |       94 |      3 |   104 |   -4.662 |      -56.9 |     33 | monitor_out[31]
+      450 |       0 |     295 |      100 |      3 |   104 |   -4.616 |      -56.1 |     33 | monitor_out[31]
+      460 |       0 |     303 |      105 |      3 |   104 |   -4.654 |      -56.6 |     33 | monitor_out[31]
+      470 |       0 |     307 |      109 |      4 |   107 |   -4.604 |      -55.8 |     33 | monitor_out[31]
+      480 |       0 |     310 |      117 |      5 |   109 |   -4.578 |      -54.5 |     33 | monitor_out[31]
+      485 |       0 |     314 |      117 |      5 |   109 |   -4.575 |      -54.5 |     33 | monitor_out[31]
+      486 |       0 |     314 |      117 |      5 |   109 |   -4.575 |      -54.5 |     33 | monitor_out[31]
+      490 |       0 |     317 |      117 |      5 |   109 |   -4.575 |      -54.5 |     33 | monitor_out[31]
+      497 |       0 |     316 |      120 |      5 |   109 |   -4.575 |      -54.5 |     33 | monitor_out[31]
+      500 |       0 |     318 |      120 |      5 |   109 |   -4.575 |      -54.4 |     33 | monitor_out[31]
+      510 |       0 |     324 |      120 |      5 |   113 |   -4.589 |      -54.4 |     33 | monitor_out[31]
+      510 |       0 |     322 |      120 |      5 |   111 |   -4.575 |      -54.1 |     33 | monitor_out[31]
+      520 |       0 |     329 |      120 |      5 |   113 |   -4.573 |      -53.8 |     33 | monitor_out[31]
+      521 |       0 |     329 |      120 |      5 |   113 |   -4.573 |      -53.8 |     33 | monitor_out[31]
+      530 |       0 |     336 |      120 |      5 |   114 |   -4.624 |      -54.0 |     33 | monitor_out[31]
+      538 |       0 |     333 |      120 |      5 |   114 |   -4.573 |      -53.8 |     33 | monitor_out[31]
+      540 |       0 |     334 |      120 |      5 |   114 |   -4.573 |      -53.8 |     33 | monitor_out[31]
+      550 |       0 |     342 |      120 |      5 |   116 |   -4.572 |      -53.5 |     33 | monitor_out[31]
+      551 |       0 |     342 |      120 |      5 |   116 |   -4.572 |      -53.5 |     33 | monitor_out[31]
+      560 |       0 |     348 |      120 |      5 |   118 |   -4.621 |      -53.8 |     33 | monitor_out[31]
+      570 |       0 |     353 |      120 |      5 |   123 |   -4.664 |      -54.0 |     33 | monitor_out[31]
+      574 |       0 |     348 |      120 |      5 |   116 |   -4.572 |      -53.4 |     33 | monitor_out[31]
+      580 |       0 |     353 |      120 |      5 |   116 |   -4.597 |      -53.6 |     33 | monitor_out[31]
+      582 |       0 |     352 |      120 |      5 |   116 |   -4.572 |      -53.3 |     33 | monitor_out[31]
+      590 |       0 |     358 |      120 |      5 |   117 |   -4.572 |      -53.1 |     33 | monitor_out[31]
+      591 |       0 |     357 |      120 |      5 |   117 |   -4.572 |      -53.0 |     33 | monitor_out[31]
+      600 |       0 |     363 |      120 |      5 |   119 |   -4.572 |      -53.1 |     33 | monitor_out[31]
+      602 |       0 |     362 |      120 |      5 |   118 |   -4.572 |      -53.0 |     33 | monitor_out[31]
+      610 |       0 |     368 |      120 |      5 |   119 |   -4.573 |      -53.3 |     33 | monitor_out[31]
+      613 |       0 |     367 |      120 |      5 |   118 |   -4.572 |      -52.9 |     33 | monitor_out[31]
+      620 |       0 |     372 |      120 |      5 |   119 |   -4.572 |      -52.5 |     33 | monitor_out[31]
+      630 |       0 |     381 |      120 |      5 |   120 |   -4.572 |      -51.4 |     33 | monitor_out[31]
+      640 |       0 |     388 |      120 |      5 |   123 |   -4.572 |      -51.2 |     33 | monitor_out[31]
+      650 |       0 |     394 |      122 |      5 |   126 |   -4.572 |      -50.9 |     33 | monitor_out[31]
+      660 |       0 |     400 |      122 |      5 |   130 |   -4.572 |      -50.8 |     33 | monitor_out[31]
+      670 |       0 |     406 |      122 |      5 |   134 |   -4.588 |      -51.3 |     33 | monitor_out[31]
+      680 |       0 |     409 |      126 |      5 |   139 |   -4.586 |      -50.5 |     33 | monitor_out[31]
+      683 |       0 |     405 |      124 |      5 |   133 |   -4.572 |      -50.9 |     33 | monitor_out[31]
+      690 |       0 |     408 |      130 |      5 |   133 |   -4.572 |      -51.0 |     33 | monitor_out[31]
+      696 |       0 |     409 |      130 |      5 |   133 |   -4.572 |      -50.3 |     33 | monitor_out[31]
+      700 |       0 |     412 |      130 |      5 |   133 |   -4.572 |      -50.2 |     33 | monitor_out[31]
+      708 |       0 |     411 |      130 |      5 |   133 |   -4.572 |      -50.2 |     33 | monitor_out[31]
+      710 |       0 |     412 |      130 |      5 |   133 |   -4.572 |      -50.2 |     33 | monitor_out[31]
+      720 |       0 |     418 |      132 |      5 |   136 |   -4.572 |      -50.1 |     33 | monitor_out[31]
+      720 |       0 |     418 |      132 |      5 |   135 |   -4.572 |      -50.0 |     33 | monitor_out[31]
+      728 |       0 |     423 |      132 |      5 |   137 |   -4.572 |      -50.0 |     33 | monitor_out[31]
+      729 |       0 |     423 |      132 |      5 |   137 |   -4.572 |      -50.0 |     33 | monitor_out[31]
+      730 |       0 |     423 |      132 |      5 |   137 |   -4.572 |      -50.0 |     33 | monitor_out[31]
+      737 |       0 |     423 |      135 |      5 |   139 |   -4.572 |      -50.6 |     33 | monitor_out[31]
+      739 |       0 |     423 |      135 |      5 |   139 |   -4.572 |      -50.6 |     33 | monitor_out[31]
+      740 |       0 |     423 |      135 |      5 |   139 |   -4.572 |      -50.6 |     33 | monitor_out[31]
+      745 |       0 |     426 |      135 |      5 |   141 |   -4.572 |      -50.5 |     33 | monitor_out[31]
+      750 |       0 |     429 |      137 |      5 |   141 |   -4.572 |      -50.1 |     33 | monitor_out[31]
+      751 |       0 |     429 |      136 |      5 |   141 |   -4.572 |      -49.8 |     33 | monitor_out[31]
+      759 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     33 | monitor_out[31]
+      760 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     33 | monitor_out[31]
+      760 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     32 | monitor_out[31]
+      761 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     31 | monitor_out[31]
+      762 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     30 | monitor_out[31]
+      763 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     29 | monitor_out[31]
+      764 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     28 | monitor_out[31]
+      765 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     27 | monitor_out[31]
+      766 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     26 | monitor_out[31]
+      767 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     25 | monitor_out[31]
+      768 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     24 | monitor_out[31]
+      769 |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     770* |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     770* |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     771* |       0 |     434 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     775* |       0 |     437 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     776* |       0 |     437 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     778* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     779* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     780* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     780* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     781* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     782* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     783* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     784* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     785* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     786* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     787* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     788* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     789* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     790* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     790* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     791* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     792* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     793* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     794* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     795* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+     796* |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+    final |       0 |     438 |      136 |      5 |   143 |   -4.572 |      -49.9 |     23 | monitor_out[31]
+---------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 68 buffers.
+[INFO RSZ-0041] Resized 438 instances.
+[INFO RSZ-0043] Swapped pins on 143 instances.
+[INFO RSZ-0049] Cloned 5 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0046] Found 34 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   WNS   |   TNS   | Endpoint
+---------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |   0.055 |   0.000 | _6268_/D
+    final |       0 |      34 |            0 |   0.101 |   0.000 | _6312_/D
+---------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 34 hold buffers.
+Placement Analysis
+---------------------------------
+total displacement       1409.8 u
+average displacement        0.3 u
+max displacement           11.6 u
+original HPWL           93668.5 u
+legalized HPWL          96921.5 u
+delta HPWL                    3 %
+
+[INFO DPL-0020] Mirrored 1303 instances
+[INFO DPL-0021] HPWL before           96921.5 u
+[INFO DPL-0022] HPWL after            94841.8 u
+[INFO DPL-0023] HPWL delta               -2.1 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               216     810.78
+  Tap cell                               1210    1513.95
+  Clock buffer                             21     287.78
+  Timing Repair Buffer                    362    2862.75
+  Inverter                                 26      97.59
+  Clock inverter                           11     105.10
+  Sequential cell                         126    3260.63
+  Multi-Input combinational cell         3130   23800.33
+  Total                                  5102   32738.90
+Writing OpenROAD database to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-21-11/36-openroad-resizertimingpostcts/soc_top.odb'…
+Writing netlist to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-21-11/36-openroad-resizertimingpostcts/soc_top.nl.v'…
+Writing powered netlist to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-21-11/36-openroad-resizertimingpostcts/soc_top.pnl.v'…
+Writing layout to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-21-11/36-openroad-resizertimingpostcts/soc_top.def'…
+Writing timing constraints to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-21-11/36-openroad-resizertimingpostcts/soc_top.sdc'…

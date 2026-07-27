@@ -1,0 +1,39 @@
+Reading OpenROAD database at '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/31-openroad-repairdesignpostgpl/soc_top.odb'…
+Reading library file at '/home/srijitsengupta/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           90779.4 u
+legalized HPWL          92672.0 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 1274 instances
+[INFO DPL-0021] HPWL before           92672.0 u
+[INFO DPL-0022] HPWL after            90779.4 u
+[INFO DPL-0023] HPWL delta               -2.0 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               216     810.78
+  Tap cell                               1210    1513.95
+  Timing Repair Buffer                    255    1545.23
+  Inverter                                 26      97.59
+  Sequential cell                         126    3260.63
+  Multi-Input combinational cell         3130   22191.28
+  Total                                  4963   29419.47
+Writing OpenROAD database to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/33-openroad-detailedplacement/soc_top.odb'…
+Writing netlist to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/33-openroad-detailedplacement/soc_top.nl.v'…
+Writing powered netlist to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/33-openroad-detailedplacement/soc_top.pnl.v'…
+Writing layout to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/33-openroad-detailedplacement/soc_top.def'…
+Writing timing constraints to '/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/33-openroad-detailedplacement/soc_top.sdc'…

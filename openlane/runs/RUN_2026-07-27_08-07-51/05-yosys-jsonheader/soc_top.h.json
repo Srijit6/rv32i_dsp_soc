@@ -1,0 +1,40 @@
+{
+  "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+  "modules": {
+    "soc_top": {
+      "attributes": {
+        "hdlname": "soc_top",
+        "top": "00000000000000000000000000000001",
+        "src": "/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/soc_top.v:3.1-54.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "rst_n": {
+          "direction": "input",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/soc_top.v:4.17-4.20"
+          }
+        },
+        "rst_n": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/soc_top.v:5.17-5.22"
+          }
+        }
+      }
+    }
+  }
+}

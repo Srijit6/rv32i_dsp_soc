@@ -1,0 +1,255 @@
+$date
+	Mon Jul 27 04:35:36 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst_n $end
+$scope module u_soc $end
+$var wire 1 ! clk $end
+$var wire 1 " rst_n $end
+$var wire 32 # rs2_data [31:0] $end
+$var wire 32 $ rs1_data [31:0] $end
+$var wire 32 % instruction [31:0] $end
+$var wire 32 & inst_addr [31:0] $end
+$var wire 1 ' dsp_valid $end
+$var wire 32 ( dsp_result [31:0] $end
+$var wire 1 ) dsp_ready $end
+$scope module u_core $end
+$var wire 1 ! clk $end
+$var wire 1 ' dsp_valid_out $end
+$var wire 1 * reg_write_en $end
+$var wire 32 + rs1_out [31:0] $end
+$var wire 32 , rs2_out [31:0] $end
+$var wire 1 " rst_n $end
+$var wire 5 - rs2_addr [4:0] $end
+$var wire 5 . rs1_addr [4:0] $end
+$var wire 32 / reg_write_data [31:0] $end
+$var wire 32 0 reg_rs2_data [31:0] $end
+$var wire 32 1 reg_rs1_data [31:0] $end
+$var wire 5 2 rd_addr [4:0] $end
+$var wire 7 3 opcode [6:0] $end
+$var wire 1 4 is_custom_dsp $end
+$var wire 32 5 inst_in [31:0] $end
+$var wire 32 6 inst_addr_out [31:0] $end
+$var wire 32 7 imm_ext [31:0] $end
+$var wire 7 8 funct7 [6:0] $end
+$var wire 3 9 funct3 [2:0] $end
+$var wire 32 : dsp_result_in [31:0] $end
+$var wire 1 ) dsp_ready_in $end
+$var wire 32 ; branch_target [31:0] $end
+$var wire 1 < branch_en $end
+$var wire 32 = alu_result [31:0] $end
+$scope module u_decode $end
+$var wire 5 > rs2_addr [4:0] $end
+$var wire 5 ? rs1_addr [4:0] $end
+$var wire 5 @ rd_addr [4:0] $end
+$var wire 7 A opcode [6:0] $end
+$var wire 1 4 is_custom_dsp $end
+$var wire 32 B inst [31:0] $end
+$var wire 32 C imm_ext [31:0] $end
+$var wire 7 D funct7 [6:0] $end
+$var wire 3 E funct3 [2:0] $end
+$upscope $end
+$scope module u_execute $end
+$var wire 3 F funct3 [2:0] $end
+$var wire 7 G funct7 [6:0] $end
+$var wire 32 H imm_ext [31:0] $end
+$var wire 7 I opcode [6:0] $end
+$var wire 32 J rs2_data [31:0] $end
+$var wire 32 K rs1_data [31:0] $end
+$var wire 32 L pc_in [31:0] $end
+$var wire 32 M branch_target [31:0] $end
+$var wire 32 N alu_in2 [31:0] $end
+$var reg 32 O alu_result [31:0] $end
+$var reg 1 < branch_en $end
+$upscope $end
+$scope module u_fetch $end
+$var wire 1 < branch_en $end
+$var wire 32 P branch_target [31:0] $end
+$var wire 1 ! clk $end
+$var wire 1 " rst_n $end
+$var wire 32 Q next_pc [31:0] $end
+$var reg 32 R pc_out [31:0] $end
+$upscope $end
+$scope module u_regfile $end
+$var wire 1 ! clk $end
+$var wire 5 S rd_addr [4:0] $end
+$var wire 32 T rd_data [31:0] $end
+$var wire 1 * reg_write_en $end
+$var wire 5 U rs1_addr [4:0] $end
+$var wire 5 V rs2_addr [4:0] $end
+$var wire 1 " rst_n $end
+$var wire 32 W rs2_data [31:0] $end
+$var wire 32 X rs1_data [31:0] $end
+$var integer 32 Y i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module u_dsp $end
+$var wire 1 ! clk $end
+$var wire 1 ) ready_out $end
+$var wire 32 Z result_out [31:0] $end
+$var wire 32 [ rs1_in [31:0] $end
+$var wire 32 \ rs2_in [31:0] $end
+$var wire 1 " rst_n $end
+$var wire 1 ' valid_in $end
+$var wire 32 ] mac_result [31:0] $end
+$var wire 1 ^ clear_flag $end
+$scope module u_mac $end
+$var wire 32 _ a_in [31:0] $end
+$var wire 32 ` acc_out [31:0] $end
+$var wire 32 a b_in [31:0] $end
+$var wire 1 ^ clear_acc $end
+$var wire 1 ! clk $end
+$var wire 1 " rst_n $end
+$var wire 1 ' valid_in $end
+$var wire 32 b next_acc [31:0] $end
+$var wire 32 c mult_result [31:0] $end
+$var reg 32 d acc_reg [31:0] $end
+$upscope $end
+$upscope $end
+$scope module u_imem $end
+$var wire 32 e addr [31:0] $end
+$var wire 1 ! clk $end
+$var wire 32 f inst [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx f
+b0 e
+b0 d
+bx c
+bx b
+bx a
+bx `
+bx _
+x^
+bx ]
+bx \
+bx [
+bx Z
+b100000 Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+b0 R
+bx Q
+bx P
+bx O
+bx N
+bx M
+b0 L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+x<
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+b0 6
+bx 5
+x4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+x*
+x)
+bx (
+x'
+b0 &
+bx %
+bx $
+bx #
+0"
+0!
+$end
+#5000
+b100000 Y
+1!
+#10000
+0!
+#15000
+b100000 Y
+1!
+#20000
+0!
+1"
+#25000
+bx &
+bx 6
+bx L
+bx R
+bx e
+1!
+#30000
+0!
+#35000
+1!
+#40000
+0!
+#45000
+1!
+#50000
+0!
+#55000
+1!
+#60000
+0!
+#65000
+1!
+#70000
+0!
+#75000
+1!
+#80000
+0!
+#85000
+1!
+#90000
+0!
+#95000
+1!
+#100000
+0!
+#105000
+1!
+#110000
+0!
+#115000
+1!
+#120000
+0!

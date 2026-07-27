@@ -1,0 +1,786 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/tmp/6e151cc985ec430db3cd0096da1e1a8c.bb.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/openlane/runs/RUN_2026-07-27_08-13-02/tmp/6e151cc985ec430db3cd0096da1e1a8c.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v' to AST representation.
+Storing AST representation for module `$abstract\fetch'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/decode.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/decode.v' to AST representation.
+Storing AST representation for module `$abstract\decode'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v' to AST representation.
+Storing AST representation for module `$abstract\execute'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v' to AST representation.
+Storing AST representation for module `$abstract\register_file'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/rv32i_top.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/rv32i_top.v' to AST representation.
+Storing AST representation for module `$abstract\rv32i_top'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/dsp_coprocessor.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/dsp_coprocessor.v' to AST representation.
+Storing AST representation for module `$abstract\dsp_coprocessor'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v' to AST representation.
+Storing AST representation for module `$abstract\mac_unit'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/instruction_memory.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/instruction_memory.v' to AST representation.
+Storing AST representation for module `$abstract\instruction_memory'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/soc_top.v
+Parsing SystemVerilog input from `/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/soc_top.v' to AST representation.
+Storing AST representation for module `$abstract\soc_top'.
+Successfully finished Verilog frontend.
+
+11. Executing HIERARCHY pass (managing design hierarchy).
+
+12. Executing AST frontend in derive mode using pre-parsed AST for module `\soc_top'.
+Generating RTLIL representation for module `\soc_top'.
+
+12.1. Analyzing design hierarchy..
+Top module:  \soc_top
+
+12.2. Executing AST frontend in derive mode using pre-parsed AST for module `\dsp_coprocessor'.
+Generating RTLIL representation for module `\dsp_coprocessor'.
+
+12.3. Executing AST frontend in derive mode using pre-parsed AST for module `\rv32i_top'.
+Generating RTLIL representation for module `\rv32i_top'.
+
+12.4. Executing AST frontend in derive mode using pre-parsed AST for module `\instruction_memory'.
+Generating RTLIL representation for module `\instruction_memory'.
+
+12.5. Analyzing design hierarchy..
+Top module:  \soc_top
+Used module:     \dsp_coprocessor
+Used module:     \rv32i_top
+Used module:     \instruction_memory
+
+12.6. Executing AST frontend in derive mode using pre-parsed AST for module `\execute'.
+Generating RTLIL representation for module `\execute'.
+
+12.7. Executing AST frontend in derive mode using pre-parsed AST for module `\register_file'.
+Generating RTLIL representation for module `\register_file'.
+Warning: Replacing memory \registers with list of registers. See /home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:29
+
+12.8. Executing AST frontend in derive mode using pre-parsed AST for module `\decode'.
+Generating RTLIL representation for module `\decode'.
+
+12.9. Executing AST frontend in derive mode using pre-parsed AST for module `\fetch'.
+Generating RTLIL representation for module `\fetch'.
+
+12.10. Executing AST frontend in derive mode using pre-parsed AST for module `\mac_unit'.
+Generating RTLIL representation for module `\mac_unit'.
+
+12.11. Analyzing design hierarchy..
+Top module:  \soc_top
+Used module:     \dsp_coprocessor
+Used module:         \mac_unit
+Used module:     \rv32i_top
+Used module:         \execute
+Used module:         \register_file
+Used module:         \decode
+Used module:         \fetch
+Used module:     \instruction_memory
+
+12.12. Analyzing design hierarchy..
+Top module:  \soc_top
+Used module:     \dsp_coprocessor
+Used module:         \mac_unit
+Used module:     \rv32i_top
+Used module:         \execute
+Used module:         \register_file
+Used module:         \decode
+Used module:         \fetch
+Used module:     \instruction_memory
+Removing unused module `$abstract\soc_top'.
+Removing unused module `$abstract\instruction_memory'.
+Removing unused module `$abstract\mac_unit'.
+Removing unused module `$abstract\dsp_coprocessor'.
+Removing unused module `$abstract\rv32i_top'.
+Removing unused module `$abstract\register_file'.
+Removing unused module `$abstract\execute'.
+Removing unused module `$abstract\decode'.
+Removing unused module `$abstract\fetch'.
+Removed 9 unused modules.
+Renaming module soc_top to soc_top.
+
+13. Executing PROC pass (convert processes to netlists).
+
+13.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `instruction_memory.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/soc/instruction_memory.v:0$13'.
+Cleaned up 0 empty switches.
+
+13.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v:20$56 in module fetch.
+Removed 1 dead cases from process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$50 in module register_file.
+Marked 1 switch rules as full_case in process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$50 in module register_file.
+Removed 1 dead cases from process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$47 in module register_file.
+Marked 1 switch rules as full_case in process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$47 in module register_file.
+Marked 3 switch rules as full_case in process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37 in module register_file.
+Marked 4 switch rules as full_case in process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$19 in module execute.
+Marked 1 switch rules as full_case in process $proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v:28$61 in module mac_unit.
+Removed a total of 2 dead cases.
+
+13.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 1 redundant assignment.
+Promoted 7 assignments to connections.
+
+13.4. Executing PROC_INIT pass (extract init attributes).
+
+13.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst_n in `\fetch.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v:20$56'.
+Found async reset \rst_n in `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+Found async reset \rst_n in `\mac_unit.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v:28$61'.
+
+13.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~9 debug messages>
+
+13.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\fetch.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v:20$56'.
+     1/1: $0\pc_out[31:0]
+Creating decoders for process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$50'.
+     1/1: $1$mem2reg_rd$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:24$31_DATA[31:0]$52
+Creating decoders for process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$47'.
+     1/1: $1$mem2reg_rd$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:23$30_DATA[31:0]$49
+Creating decoders for process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+     1/37: $2$mem2reg_wr$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:33$32_ADDR[4:0]$45
+     2/37: $2$mem2reg_wr$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:33$32_DATA[31:0]$46
+     3/37: $1$mem2reg_wr$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:33$32_DATA[31:0]$42
+     4/37: $1$mem2reg_wr$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:33$32_ADDR[4:0]$41
+     5/37: $1\i[31:0]
+     6/37: $0\registers[31][31:0]
+     7/37: $0\registers[30][31:0]
+     8/37: $0\registers[29][31:0]
+     9/37: $0\registers[28][31:0]
+    10/37: $0\registers[27][31:0]
+    11/37: $0\registers[26][31:0]
+    12/37: $0\registers[25][31:0]
+    13/37: $0\registers[24][31:0]
+    14/37: $0\registers[23][31:0]
+    15/37: $0\registers[22][31:0]
+    16/37: $0\registers[21][31:0]
+    17/37: $0\registers[20][31:0]
+    18/37: $0\registers[19][31:0]
+    19/37: $0\registers[18][31:0]
+    20/37: $0\registers[17][31:0]
+    21/37: $0\registers[16][31:0]
+    22/37: $0\registers[15][31:0]
+    23/37: $0\registers[14][31:0]
+    24/37: $0\registers[13][31:0]
+    25/37: $0\registers[12][31:0]
+    26/37: $0\registers[11][31:0]
+    27/37: $0\registers[10][31:0]
+    28/37: $0\registers[9][31:0]
+    29/37: $0\registers[8][31:0]
+    30/37: $0\registers[7][31:0]
+    31/37: $0\registers[6][31:0]
+    32/37: $0\registers[5][31:0]
+    33/37: $0\registers[4][31:0]
+    34/37: $0\registers[3][31:0]
+    35/37: $0\registers[2][31:0]
+    36/37: $0\registers[1][31:0]
+    37/37: $0\registers[0][31:0]
+Creating decoders for process `\execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$19'.
+     1/5: $2\branch_en[0:0]
+     2/5: $3\alu_result[31:0]
+     3/5: $2\alu_result[31:0]
+     4/5: $1\alu_result[31:0]
+     5/5: $1\branch_en[0:0]
+Creating decoders for process `\mac_unit.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v:28$61'.
+     1/1: $0\acc_reg[31:0]
+
+13.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\register_file.$mem2reg_rd$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:24$31_DATA' from process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$50'.
+No latch inferred for signal `\register_file.$mem2reg_rd$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:23$30_DATA' from process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$47'.
+No latch inferred for signal `\execute.\branch_en' from process `\execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$19'.
+No latch inferred for signal `\execute.\alu_result' from process `\execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$19'.
+
+13.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\fetch.\pc_out' using process `\fetch.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v:20$56'.
+  created $adff cell `$procdff$834' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\i' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$839' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[0]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $dff cell `$procdff$846' with positive edge clock.
+Creating register for signal `\register_file.\registers[1]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$851' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[2]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$856' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[3]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$861' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[4]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$866' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[5]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$871' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[6]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$876' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[7]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$881' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[8]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$886' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[9]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$891' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[10]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$896' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[11]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$901' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[12]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$906' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[13]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$911' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[14]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$916' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[15]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$921' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[16]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$926' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[17]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$931' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[18]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$936' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[19]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$941' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[20]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$946' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[21]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$951' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[22]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$956' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[23]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$961' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[24]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$966' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[25]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$971' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[26]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$976' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[27]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$981' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[28]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$986' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[29]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$991' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[30]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$996' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.\registers[31]' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$1001' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.$mem2reg_wr$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:33$32_ADDR' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$1006' with positive edge clock and positive level reset.
+Creating register for signal `\register_file.$mem2reg_wr$\registers$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:33$32_DATA' using process `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+  created $adff cell `$procdff$1011' with positive edge clock and positive level reset.
+Creating register for signal `\mac_unit.\acc_reg' using process `\mac_unit.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v:28$61'.
+  created $adff cell `$procdff$1016' with positive edge clock and positive level reset.
+
+13.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+13.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `fetch.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/fetch.v:20$56'.
+Found and cleaned up 1 empty switch in `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$50'.
+Removing empty process `register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$50'.
+Found and cleaned up 1 empty switch in `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$47'.
+Removing empty process `register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:0$47'.
+Found and cleaned up 2 empty switches in `\register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+Removing empty process `register_file.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/register_file.v:26$37'.
+Found and cleaned up 4 empty switches in `\execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$19'.
+Removing empty process `execute.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/core/execute.v:27$19'.
+Found and cleaned up 1 empty switch in `\mac_unit.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v:28$61'.
+Removing empty process `mac_unit.$proc$/home/srijitsengupta/rv32i_dsp_soc/hw/rtl/dsp/mac_unit.v:28$61'.
+Cleaned up 9 empty switches.
+
+13.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module soc_top.
+Optimizing module fetch.
+<suppressed ~2 debug messages>
+Optimizing module decode.
+Optimizing module register_file.
+<suppressed ~76 debug messages>
+Optimizing module execute.
+<suppressed ~3 debug messages>
+Optimizing module instruction_memory.
+Optimizing module rv32i_top.
+Optimizing module dsp_coprocessor.
+<suppressed ~1 debug messages>
+Optimizing module mac_unit.
+<suppressed ~2 debug messages>
+
+14. Executing FLATTEN pass (flatten design).
+Deleting now unused module fetch.
+Deleting now unused module decode.
+Deleting now unused module register_file.
+Deleting now unused module execute.
+Deleting now unused module instruction_memory.
+Deleting now unused module rv32i_top.
+Deleting now unused module dsp_coprocessor.
+Deleting now unused module mac_unit.
+<suppressed ~8 debug messages>
+
+15. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \soc_top..
+Removed 53 unused cells and 261 unused wires.
+<suppressed ~126 debug messages>
